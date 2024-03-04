@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-900">
+
+    <h1 class="text-center text-2xl text-white mt-5">Films</h1>
+
+    <ul class="js-films-list flex flex-wrap gap-2 mt-10 w-[1200px] mx-auto pl-2">
+      
+    </ul>
+
+    <template class="js-films-template">
+        <li class="films-item w-[280px] bg-stone-700 p-2 rounded-sm">
+            <img class="films-poster w-[270px] object-contain" src="" alt="">
+            <h3 class="film-title text-white"></h3>
+            <p class="film-realese-date text-white"></p>
+            <p class="film-summary text-white"></p>
+        </li>
+    </template>
+
+
+
+
+    <script src="./films.js"></script>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
